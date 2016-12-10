@@ -1,6 +1,5 @@
 {
     "env": {
-        "browser": true,
         "es6": true,
         "node": true
     },
@@ -9,9 +8,10 @@
         "sourceType": "module"
     },
     "rules": {
+				"no-console": 0,
         "indent": [
             "error",
-            4
+            "tab"
         ],
         "linebreak-style": [
             "error",
